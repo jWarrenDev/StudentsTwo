@@ -43,13 +43,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		47001221217120AF00C3BADF /* Model Object + Controller */ = {
+		47001221217120AF00C3BADF /* Model Object + Controller(Manager) */ = {
 			isa = PBXGroup;
 			children = (
 				471CA6EB21710E2800290985 /* Student.swift */,
 				471CA6F121710E5600290985 /* StudentManager.swift */,
 			);
-			path = "Model Object + Controller";
+			path = "Model Object + Controller(Manager)";
 			sourceTree = "<group>";
 		};
 		47001222217120CB00C3BADF /* View Controller */ = {
@@ -102,7 +102,7 @@
 			children = (
 				47001223217120D600C3BADF /* Resources */,
 				47001224217120DF00C3BADF /* Storyboard */,
-				47001221217120AF00C3BADF /* Model Object + Controller */,
+				47001221217120AF00C3BADF /* Model Object + Controller(Manager) */,
 				47001222217120CB00C3BADF /* View Controller */,
 			);
 			path = StudentTwo;
