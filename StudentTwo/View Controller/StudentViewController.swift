@@ -41,6 +41,7 @@ class StudentViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        view.backgroundColor = #colorLiteral(red: 0.5098, green: 0.898, blue: 0.6588, alpha: 1)
         if let student = student {
             nameField.text = student.name
             if let age = student.age {
